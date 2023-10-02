@@ -59,7 +59,11 @@ const NavbarComponent: React.FC = () => {
             </li>
             {/* Contact Us Link */}
             <li className="nav-item">
-              <Link href="/" passHref className={`${Styles.custom_decoration}`}>
+              <Link
+                href="/contact-us"
+                passHref
+                className={`${Styles.custom_decoration}`}
+              >
                 <div className={`${Styles.custom_link}`}>Contact us</div>
               </Link>
             </li>
